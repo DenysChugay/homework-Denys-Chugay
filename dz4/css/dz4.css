@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.conteiner{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    border: 2px solid green;
+
+}
+.top{
+    height: 100px;
+    width: 580px;
+    border: 2px solid red;
+    margin: 8px;
+    
+}
+.top div{
+    height: 70px;
+
+    border: 2px solid blue;
+    display: inline-block;
+}
+.top .one{
+    width: 150px;
+    margin: 8px 2px 8px 8px;
+
+    
+}
+.top .two{
+    width: 230px;
+    margin: 8px 1px 8px 1px;
+
+}
+.top .three{
+    width: 150px;
+    margin: 8px 8px 8px 1px;
+}
+
+
+
+
+
+ 
+.midle{
+    height: 30px;
+    border: 2px solid red;
+    margin: 8px;
+}
+.bot{
+    height: 300px;
+    border: 2px solid red;
+    padding: 3px;
+    margin: 8px;
+}
+.low{
+    height: 110px;
+    border: 2px solid red;
+    margin: 8px;
+
+}
+.midle div {
+    height: 20px;
+    border: 2px solid blue;
+    display: inline-block;
+
+}
+.midle .qw{
+    width: 130px;
+    margin: 4px;
+}
+.midle .qe{
+    width: 130px;
+    margin: 4px;
+}
+.midle .qr{
+    width: 130px;
+    margin: 4px;
+}
+.midle .qt{
+    width: 130px;
+    margin: 4px;
+}
+.bot div{
+    border: 2px solid blue;
+    display: inline-block;
+}
+.bot .wq{
+    height: 285px;
+    width: 200px;
+    padding: 5px;
+
+}
+.bot .ww{
+    height: 285px;
+    width: 340px;
+    padding: 5px;
+}
+
+.low div{
+    border: 2px solid blue;
+    display: inline-block;
+    height: 100px;
+    margin: 2px 2px 2px 2px;
+}
+.low .we{
+    width: 150px;
+
+}
+.low .wr{
+    width: 240px;
+
+}
+.low .wt{
+    width: 150px;
+}

@@ -1,0 +1,30 @@
+@media (max-width: 768px) and (min-width: 426px){
+    .header-left{
+        position: fixed;
+        left: -300px;
+    }
+    .conteiner{
+        width: 100%;
+        margin: 0%;
+        position: relative;
+        left: 0;
+    }
+    .conteiner #top .top-center span{
+        font-size: 36px;
+    }
+    .conteiner #top .fotter{
+        font-size: 20px;
+    }
+.menu-items{
+    display: inline;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    background: #746670;
+    position: fixed;
+    left: 0;
+    border-radius: 5px;
+    padding: 1%;
+    z-index: 10;
+}
+}

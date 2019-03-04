@@ -1,0 +1,151 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ .conteiner{
+    width: 70%;
+    
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.header{
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+.header .header-inline{
+ display: inline-block;
+ width: 49%;
+ height: 30px;
+ 
+
+}
+.header .header-inline .block{
+    height: 30px;
+    background-color: black;
+    display: inline-block;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 20%;
+    
+}
+.align-right{
+    text-align: right;
+}
+.header .header-center{
+    width: 100%;
+    background-color: black;
+    height: 30px;
+
+ } 
+.content{
+    width: 100%;
+    padding: 10px; 
+
+}
+
+.content .articles{
+    border: 1px solid red;
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+ } 
+ .content .articles .b{
+     /* border: 1px solid black; */
+     width: 32.5%;
+     height: 200px;
+     display: inline-block;
+     text-align: center;
+     vertical-align: bottom;
+     
+     
+ }
+ .bottom{
+     width: 100%;
+     padding: 11px;
+    
+ }
+ .bottom .lefft{
+     height: 300px;
+     width: 49%;
+     /* border: 1px solid black; */
+     display: inline-block;
+     padding: 5px;
+     vertical-align: bottom;
+
+ }
+ .bottom .rigght{
+     height: 300px;
+     width: 50%;
+     /* border: 1px solid black; */
+     display: inline-block;
+     vertical-align: bottom;
+ }
+ .bottom .lefft .inlines{
+     height: 15px;
+     width: 60%;
+     background-color: black;
+ }
+ .bottom .lefft .inliness{
+     height: 30px;
+     width: 80%;
+     background-color: black;
+     margin: 3% 10% 0% 0%;
+    
+ }
+  
+.bottom .lefft  .finish{
+    border: 1px solid red;
+    width: 95%;
+    height: 210px;
+    margin: 3% 0% 0% 0%;
+}
+.bottom .lefft .finish .lastpic1{
+    width: 95%;
+    /* border: 1px solid black; */
+    height: 68px;
+}
+IMG.fig {
+    float: left; 
+   }
+
+ .bottom .lefft .finish .lastpic2{
+    width: 95%;
+    /* border: 1px solid black; */
+    height: 68px;
+
+} 
+IMG.fig1 {
+    float: right; 
+   }
+
+ .bottom .lefft .finish .lastpic3{
+    width: 95%;
+    /* border: 1px solid black; */
+    height: 68px;
+
+} 
+.bottom .rigght .inline1{
+    height: 20px;
+    width: 60%;
+    background-color: black;
+}
+.bottom .rigght .inline2{
+    height: 35px;
+    width: 80%;
+    background-color: black;
+    margin: 3% 10% 0% 0%;
+   
+}
+.bottom .rigght  .finish{
+    border: 1px solid red;
+    width: 95%;
+    height: 210px;
+    margin-top: 2%;
+    text-align: left;
+}

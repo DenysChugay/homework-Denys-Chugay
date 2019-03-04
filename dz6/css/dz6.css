@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.line{
+    width: 100%;
+    background: yellow;
+    clear: left;
+}
+.left{
+    width: 30%;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+    padding: 40px;
+}
+.right{
+    width: 50%;
+    height: 250px;
+    float: left;
+    background-color: peachpuff;
+    padding: 20px;
+
+}
+.fig{
+    float: left;
+    margin: 20px;
+}

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.conteiner .main p, .conteiner .main .checkbox {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: #666; }
+
+.conteiner {
+  margin: auto;
+  width: 600px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row; }
+  .conteiner .header-left {
+    background-color: yellow;
+    width: 30%; }
+  .conteiner .main {
+    width: 70%;
+    padding: 30px;
+    background-color: azure; }
+    .conteiner .main .focus-form {
+      outline: none;
+      background: #eceee9;
+      border: none;
+      height: 30px;
+      width: 80%; }
+    .conteiner .main input[type="radio"] {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .conteiner .main .checkbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    .conteiner .main .gender-man label::before {
+      content: '♂';
+      background: #eceee9;
+      border-radius: 50%;
+      text-align: center;
+      margin: 5px;
+      width: 35px;
+      height: 35px;
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: bold;
+      cursor: pointer; }
+    .conteiner .main .gender-man input[type="radio"]:checked + label::before {
+      color: blue; }
+    .conteiner .main .gender-woman label::before {
+      content: '♀';
+      background: #eceee9;
+      border-radius: 50%;
+      text-align: center;
+      font-weight: bold;
+      margin: 5px;
+      width: 35px;
+      height: 35px;
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer; }
+    .conteiner .main .gender-woman input[type="radio"]:checked + label::before {
+      color: red; }
+    .conteiner .main select {
+   
+      width: 80%;
+      border: none;
+      border-radius: 5px;
+      background: #eceee9;
+      height: 40px;
+      padding: 5px;
+      outline: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      color: #666; }
+
+/*# sourceMappingURL=dz13.css.map */
